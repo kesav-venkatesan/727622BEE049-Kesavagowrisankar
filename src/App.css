@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.body{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    gap: 20px;
+}
+table{
+    color: #f1f1f1;
+    font-size: 24px;
+}
+caption{
+    padding: 24px 24px;
+}
+th,td{
+    padding:0px 24px;
+    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 4px;
+}
+tr:nth-child(even){
+    background-color: #f1f1f13a;
+}
+.head{
+    background-color: rgb(204, 0, 255);
+
+}
+button{
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    padding: 5px 10px;
+    background-color: #f1f1f179;
+    border: none;
+    outline:none;
+}
+.Add{
+    
+}
